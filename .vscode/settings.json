@@ -1,0 +1,5 @@
+{
+   "docker.tasks.defaultPlatform": "linux/amd64",
+    "docker.commands.build": "${containerCommand} buildx build --platform linux/amd64 --pull --rm -f \"${dockerfile}\" -t ${tag} \"${context}\""
+    
+}
